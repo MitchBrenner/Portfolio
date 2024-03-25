@@ -47,7 +47,7 @@ export default function Header({}: Props) {
                 duration: 1
             }}
             
-            className='flex flex-row items-center'
+            className='flex flex-row items-center cursor-pointer'
           >
             <SocialIcon className='cursor-pointer' network='email' fgColor='gray' bgColor='transparent'/>
             <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>

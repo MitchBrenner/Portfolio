@@ -1,20 +1,24 @@
 'use client';
+import Hero from "@/components/Hero";
 import Header from "../components/Header";
 import { NextPage } from "next";
 import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className="bg-[rgb(36,36,36)] h-screen text-white">
       <Head>
         <title>Mitchy's Portfolio</title>
       </Head>
 
-      {/* Header */}
-
       <Header />
 
       {/* Hero */}
+      <section id="hero">
+
+        <Hero />
+
+      </section>
 
       {/* About */}
 
