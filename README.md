@@ -34,3 +34,9 @@ Animations are from [Framer Motion](https://www.framer.com/motion/)
 ```bash
 npm install framer-motion
 ```
+
+Typewriter from [React Simple Typewriter](https://www.npmjs.com/package/react-simple-typewriter)
+
+```bash
+npm install react-simple-typewriter
+```
