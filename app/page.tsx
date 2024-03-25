@@ -1,5 +1,7 @@
-import { NextPage } from 'next';
-import Head from 'next/head';
+'use client';
+import Header from "../components/Header";
+import { NextPage } from "next";
+import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
@@ -7,7 +9,23 @@ const Home: NextPage = () => {
       <Head>
         <title>Mitchy's Portfolio</title>
       </Head>
-      <h1>Mitchy's Portfolio</h1>
+
+      {/* Header */}
+
+      <Header />
+
+      {/* Hero */}
+
+      {/* About */}
+
+      {/* Experience */}
+
+      {/* Skills */}
+
+      {/* Projects */}
+
+      {/* Contact Me */}
+
     </div>
   );
 };
