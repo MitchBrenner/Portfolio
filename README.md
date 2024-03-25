@@ -12,3 +12,25 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+### Styling
+
+This project uses [Tailwind CSS](https://tailwindcss.com/). You can find the Tailwind configuration in the `tailwind.config.js` file.
+
+Install and setting up Tailwind CSS:
+
+```bash
+npm install -D tailwindcss
+npx tailwindcss init
+```
+
+Icons are from [React Social Icons](https://www.npmjs.com/package/react-social-icons)
+
+```bash
+npm install react-social-icons
+```
+
+Animations are from [Framer Motion](https://www.framer.com/motion/)
+
+```bash
+npm install framer-motion
+```
