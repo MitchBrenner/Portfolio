@@ -23,7 +23,7 @@ npm install -D tailwindcss
 npx tailwindcss init
 ```
 
-Icons are from [React Social Icons](https://www.npmjs.com/package/react-social-icons)
+Icons are from [React Social Icons](https://www.npmjs.com/package/react-social-icons?activeTab=readme)
 
 ```bash
 npm install react-social-icons
