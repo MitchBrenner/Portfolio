@@ -16,13 +16,13 @@ export default function BackgroundCircles({}: Props) {
             duration: 1.5,
         }}
         
-        className='relative flex justify-center items-center -z-1 pb-2'
+        className='relative flex justify-center items-center pb-2'
     >
         <div className='absolute border border-[#333333] rounded-full h-[200px] w-[200px] mt-52 animate-ping'/>
-        <div className='rounded-full border border-[#333333] h-[300px] w-[300px] absolute mt-52'/>
+        <div className='rounded-full border border-[#333333] h-[250px] w-[250px] absolute mt-52'/>
         <div className='rounded-full border border-[#333333] h-[400px] w-[400px] absolute mt-52'/>
-        <div className='rounded-full border border-[#f7ab0a] opacity-20 h-[525px] w-[525px] absolute mt-52 animate-pulse'/>
-        <div className='rounded-full border border-[#333333] h-[600px] w-[600px] absolute mt-52'/>
+        <div className='rounded-full border border-[#9370DB] opacity-20 h-[600px] w-[600px] absolute mt-52 animate-pulse'/>
+        <div className='rounded-full border border-[#333333] h-[675px] w-[675px] absolute mt-52'/>
     </motion.div>
   )
 }
