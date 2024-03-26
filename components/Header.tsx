@@ -25,9 +25,12 @@ export default function Header({}: Props) {
             className='flex flex-row items-center'
         >
             {/* Social icons */}
-            <SocialIcon url='https://www.instagram.com/mitchellbrenner7/' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://github.com/MitchBrenner' fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url='https://www.linkedin.com/in/mitchell-brenner-124240230/' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url='https://www.instagram.com/mitchellbrenner7/' 
+                fgColor='gray' bgColor='transparent'
+                className='hover:opacity-70 transition-opacity ease-in-out duration-200'
+            />
+            <SocialIcon url='https://github.com/MitchBrenner' fgColor='gray' bgColor='transparent' className='hover:opacity-70 transition-opacity ease-in-out duration-200'/>
+            <SocialIcon url='https://www.linkedin.com/in/mitchell-brenner-124240230/' fgColor='gray' bgColor='transparent' className='hover:opacity-70 transition-opacity ease-in-out duration-200'/>
 
         </motion.div>
 
@@ -49,7 +52,7 @@ export default function Header({}: Props) {
             
             className='flex flex-row items-center cursor-pointer'
           >
-            <SocialIcon className='cursor-pointer' network='email' fgColor='gray' bgColor='transparent'/>
+            <SocialIcon className='cursor-pointer hover:opacity-70 transition-opacity ease-in-out duration-200' network='email' fgColor='gray' bgColor='transparent'/>
             <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
         </motion.div>
 
