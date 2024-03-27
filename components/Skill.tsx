@@ -21,8 +21,6 @@ export default function Skill({ directionLeft }: Props) {
                 x: 0
             }}
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-            height={100}
-            width={100}
             className='rounded-full border border-gray-500 object-contain 
             w-24 h-24 xl:w-32 xl:h-32 md:w-28 md:h-28 filter group-hover:grayscale transition duration-300 ease-in-out p-1'
         />

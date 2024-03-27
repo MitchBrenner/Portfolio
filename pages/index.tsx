@@ -50,7 +50,6 @@ const Home: NextPage = () => {
             <img 
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer object-cover transition duration-500 ease-in-out"
               src="/aboutPic.JPG" 
-              alt="" 
             />
           </div>
         </footer>

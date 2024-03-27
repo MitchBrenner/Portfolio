@@ -54,7 +54,8 @@ export default function Header({}: Props) {
                 
                 className='flex flex-row items-center cursor-pointer'
             >
-                <SocialIcon className='cursor-pointer hover:opacity-70 transition-opacity ease-in-out duration-200' network='email' fgColor='gray' bgColor='transparent'/>
+                {/* This cause hydration error */}
+                {/* <SocialIcon className='cursor-pointer hover:opacity-70 transition-opacity ease-in-out duration-200' network='email' fgColor='gray' bgColor='transparent'/> */}
                 <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get in Touch</p>
             </motion.div>
         </Link>
