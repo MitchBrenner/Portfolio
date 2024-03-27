@@ -1,9 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { PageInfo } from '@/typings'
 
-type Props = {}
+type Props = {
+    pageInfo: PageInfo
+}
 
-export default function About({}: Props) {
+export default function About({ pageInfo }: Props) {
     return (
         <div className='h-screen flex flex-col relative text-center 
         md:text-left md:flex-row max-w-6xl px-10 justify-evenly mx-auto 
@@ -56,11 +59,7 @@ export default function About({}: Props) {
                         Here is a <span className='underline decoration-[#9370DB]/50'>little</span> background
                     </h4>
                     <p className='text-sm'>
-                        I am a senior at the University of Wisconsin - Madison studying Computer Science and Data Science.  
-                        My coursework has covered a wide range of topics, including Algorithms, Data Structures, Machine Organization, 
-                        Data Modeling, Databases, User Interfaces, Virtual Reality, and AI. I have experience with a variety of programming
-                        languages, including Python, Java, C, C++, JavaScript, TypeScript, and SQL. I have also worked with react, next.js, 
-                        react native, and node.js.
+                        {pageInfo?.backgroundInformation}
                     </p>
                 </motion.div>
         </div>

@@ -74,3 +74,11 @@ The backend is built using [sanity](https://www.sanity.io/sonny)
 
 [My Link](https://portfolio-mkb.sanity.studio/structure)
 
+The connection between the frontend and backend is done using [next-sanity](https://github.com/sanity-io/next-sanity?tab=readme-ov-file) [npm](https://www.npmjs.com/package/next-sanity)
+
+
+```bash
+npm install next-sanity @portabletext/react @sanity/image-url
+```
+
+- uses groq queries to fetch data from sanity
