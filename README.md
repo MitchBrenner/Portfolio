@@ -12,6 +12,8 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Frontend
+
 ### Styling
 
 This project uses [Tailwind CSS](https://tailwindcss.com/). You can find the Tailwind configuration in the `tailwind.config.js` file.
@@ -23,7 +25,7 @@ npm install -D tailwindcss
 npx tailwindcss init
 ```
 
-Icons are from [React Social Icons](https://www.npmjs.com/package/react-social-icons?activeTab=readme)
+Social Icons are from [React Social Icons](https://www.npmjs.com/package/react-social-icons?activeTab=readme)
 
 ```bash
 npm install react-social-icons
@@ -40,3 +42,35 @@ Typewriter from [React Simple Typewriter](https://www.npmjs.com/package/react-si
 ```bash
 npm install react-simple-typewriter
 ```
+
+Icons from [HeroIcons](https://github.com/tailwindlabs/heroicons)
+
+```bash
+npm install @heroicons/react
+```
+
+```tsx
+import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
+```
+
+Scrollbar customization from [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)
+
+```bash
+npm install tailwind-scrollbar
+```
+
+#### Forms
+
+This project uses [react-hook-forms](https://react-hook-form.com/get-started)
+
+```bash
+npm install react-hook-form
+```
+
+
+## Backend
+
+The backend is built using [sanity](https://www.sanity.io/sonny)
+
+[My Link](https://portfolio-mkb.sanity.studio/structure)
+
