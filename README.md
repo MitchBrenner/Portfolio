@@ -82,3 +82,5 @@ npm install next-sanity @portabletext/react @sanity/image-url
 ```
 
 - uses groq queries to fetch data from sanity
+
+- [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
