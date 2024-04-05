@@ -14,7 +14,7 @@ export default function Skill({ skill, directionLeft }: Props) {
         <motion.img 
             initial={{
                 opacity: 0,
-                x: directionLeft ? -300 : 300
+                x: directionLeft ? -200 : 200
             }}
             transition={{
                 duration: .5
@@ -23,6 +23,7 @@ export default function Skill({ skill, directionLeft }: Props) {
                 opacity: 1,
                 x: 0
             }}
+            
             src={urlFor(skill?.image).url()}
             className='rounded-full border border-gray-500 object-contain 
             w-24 h-24 xl:w-32 xl:h-32 md:w-28 md:h-28 filter group-hover:grayscale transition duration-300 ease-in-out p-1'

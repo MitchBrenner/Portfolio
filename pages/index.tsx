@@ -56,9 +56,9 @@ const Home = ({ pageInfo, experiences, socials, skills, projects }: Props) => {
         <Projects projects={projects}/>
       </section>
 
-      <section id="contact" className="snap-center">
+      {/* <section id="contact" className="snap-center">
         <ContactMe />
-      </section>
+      </section> */}
 
       <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
