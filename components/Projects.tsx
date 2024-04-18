@@ -23,16 +23,20 @@ export default function Projects({ projects }: Props) {
         className='h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full 
         justify-evenly mx-auto items-center z-0'
     >
-        <h3 className='subTitle'>Projects</h3>
+        <h3 className='subTitle text-center'>Projects<br/>
+            <span className='text-sm tracking-wide mr-[20px]'>Scroll Across to view projects</span>
+        </h3>
+
+        
        
         <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20
         scrollbar-thin scrollbar-thumb-[#9370DB]/40'>
             {
-                projects.map((project, i) => (
-                    <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-0 sm:space-y-4 items-center justify-center p-20'>
+                projects.slice().reverse().map((project, i) => (
+                    <div key={i} className='w-screen flex-shrink-0 snap-center flex flex-col space-y-0 sm:space-y-0 items-center justify-center px-20'>
                         <motion.img
                             initial={{
-                                y: -300,
+                                y: -200,
                                 opacity: 0
                             }} 
                             whileInView={{
@@ -44,7 +48,7 @@ export default function Projects({ projects }: Props) {
                             }}
                             viewport={{ once: true }}
                             src={urlFor(project.image).url()}
-                            className='w-64 object-cover h-64 sm:h-[300px] sm:w-[300px]'
+                            className='w-64 object-contain h-64 sm:h-[350px] sm:w-[350px]'
                         />
                         <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                             <h4 className='text-4xl font-semibold text-center'>

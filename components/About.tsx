@@ -25,7 +25,7 @@ export default function About({ pageInfo }: Props) {
 
                 <motion.img 
                     initial={{
-                        x: -300,
+                        x: -200,
                         opacity: 0
                     }}
                     transition={{
@@ -37,7 +37,7 @@ export default function About({ pageInfo }: Props) {
                     }}
                     // viewport={{ once: true }}
                     src='/aboutpic.JPG' 
-                    className='-mb-[100px] md:mb-0 flex-shrink-0 w-56 h-56 rounded-full 
+                    className='mt-10 -mb-[80px] md:mb-0 flex-shrink-0 w-56 h-56 rounded-full 
                     object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[500px] 
                     xl:object-cover'
                 />
