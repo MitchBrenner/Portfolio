@@ -29,7 +29,7 @@ export default function ContactMe({}: Props) {
             <h3 className='subTitle'>Contact Me</h3>
             <div>
                 <h4 className='text-3xl font-semibold text-center mb-10'>
-                    I've got just what you need. <span className='underline decoration-[#9370DB]'>Lets Talk.</span>
+                    {/* I&apos;ve got just what you need. <span className='underline decoration-[#9370DB]'>Lets Talk.</span> */}
                 </h4>
 
                 <div className='space-y-10 mb-10'>
@@ -49,7 +49,7 @@ export default function ContactMe({}: Props) {
                         <MapPinIcon 
                             className='h-7 w-7 text-[#9370DB] animate-pulse'
                         />
-                        <p className='text-lg'>123 Developer's Lane</p>
+                        {/* <p className='text-lg'>123 Developer's Lane</p> */}
                     </div>
                 </div>
 
