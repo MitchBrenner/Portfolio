@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import Hero from "@/components/Hero";
 import Header from "../components/Header";
 import { GetStaticProps, NextPage } from "next";
@@ -17,31 +17,32 @@ import { fetchSkills } from "@/utils/fetchSkills";
 import { fetchProjects } from "@/utils/fetchProjects";
 import { urlFor } from "@/sanity";
 
-
 type Props = {
-  pageInfo: PageInfo,
-  experiences: Experience[],
-  socials: Social[],
-  skills: Technology[],
-  projects: Project[]
-}
+  pageInfo: PageInfo;
+  experiences: Experience[];
+  socials: Social[];
+  skills: Technology[];
+  projects: Project[];
+};
 
 const Home = ({ pageInfo, experiences, socials, skills, projects }: Props) => {
   return (
-    <div className="bg-[rgb(36,36,36)] h-screen text-white snap-y snap-mandatory 
-    overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#9370DB]/40">
+    <div
+      className="bg-[rgb(36,36,36)] h-screen text-white snap-y snap-mandatory 
+    overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#9370DB]/40"
+    >
       <Head>
         <title>Mitchell Brenner</title>
       </Head>
 
-      <Header socials={socials}/>
+      <Header socials={socials} />
 
       <section id="hero" className="snap-start">
-        <Hero pageInfo={pageInfo}/>
+        <Hero pageInfo={pageInfo} />
       </section>
 
       <section id="about" className="snap-center">
-        <About pageInfo={pageInfo}/>
+        <About pageInfo={pageInfo} />
       </section>
 
       {/* <section id="experience" className="snap-center">
@@ -53,7 +54,7 @@ const Home = ({ pageInfo, experiences, socials, skills, projects }: Props) => {
       </section>
 
       <section id="projects" className="snap-center">
-        <Projects projects={projects}/>
+        <Projects projects={projects} />
       </section>
 
       {/* <section id="contact" className="snap-center">
@@ -63,20 +64,18 @@ const Home = ({ pageInfo, experiences, socials, skills, projects }: Props) => {
       <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <img 
+            <img
               className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer object-cover transition duration-500 ease-in-out"
-              src={urlFor(pageInfo.profilePic).url()} 
+              src={urlFor(pageInfo.profilePic).url()}
             />
           </div>
         </footer>
       </Link>
-
     </div>
   );
 };
 
 export default Home;
-
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const pageInfo: PageInfo = await fetchPageInfo();
@@ -91,10 +90,9 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
       experiences,
       socials,
       skills,
-      projects
+      projects,
     },
 
-    revalidate: 10
+    revalidate: 10,
   };
-
-}
+};
