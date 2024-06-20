@@ -33,6 +33,8 @@ const Home = ({ pageInfo, experiences, socials, skills, projects }: Props) => {
     >
       <Head>
         <title>Mitchell Brenner</title>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/mb.png" type="image/png" />
       </Head>
 
       <Header socials={socials} />
