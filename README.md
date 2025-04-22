@@ -1,86 +1,39 @@
-# New Portfolio 2024
+# 🚀 Mitch Brenner – Portfolio 2024
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Welcome to my professional developer portfolio built with **Next.js**, **Tailwind CSS**, and powered by **Sanity CMS**. Explore my projects, skills, and connect with me easily.
 
-## Getting Started
+🌐 **Live Portfolio**: [mitch-brenner-portfolio.vercel.app](https://mitch-brenner-portfolio.vercel.app/)
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Modern, responsive design
+- Interactive animations and transitions
+- CMS-driven content management
+- Easy-to-navigate project showcase
+- Simple and intuitive contact form
 
-## Frontend
+---
 
-### Styling
+## 🛠️ Technologies
 
-This project uses [Tailwind CSS](https://tailwindcss.com/). You can find the Tailwind configuration in the `tailwind.config.js` file.
+### Frontend
 
-Install and setting up Tailwind CSS:
+- **Next.js** – A React framework for server-side rendering and static website generation.
+- **Tailwind CSS** – Utility-first CSS framework for rapid styling.
+- **Framer Motion** – Smooth and powerful animations.
+- **React Simple Typewriter** – Engaging typing animation effects.
+- **React Social Icons** – Easily integrable social media icons.
+- **Heroicons** – Beautiful, handcrafted SVG icons.
+- **React Hook Form** – Performant form handling with validation.
+- **Tailwind Scrollbar** – Custom scrollbar styling with Tailwind CSS.
 
-```bash
-npm install -D tailwindcss
-npx tailwindcss init
-```
+### Backend
 
-Social Icons are from [React Social Icons](https://www.npmjs.com/package/react-social-icons?activeTab=readme)
+- **Sanity.io** – Flexible and customizable headless CMS.
+- **GROQ** – Sanity’s powerful query language for data fetching.
 
-```bash
-npm install react-social-icons
-```
+---
 
-Animations are from [Framer Motion](https://www.framer.com/motion/)
-
-```bash
-npm install framer-motion
-```
-
-Typewriter from [React Simple Typewriter](https://www.npmjs.com/package/react-simple-typewriter)
-
-```bash
-npm install react-simple-typewriter
-```
-
-Icons from [HeroIcons](https://github.com/tailwindlabs/heroicons)
-
-```bash
-npm install @heroicons/react
-```
-
-```tsx
-import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
-```
-
-Scrollbar customization from [tailwind-scrollbar](https://www.npmjs.com/package/tailwind-scrollbar)
-
-```bash
-npm install tailwind-scrollbar
-```
-
-#### Forms
-
-This project uses [react-hook-forms](https://react-hook-form.com/get-started)
-
-```bash
-npm install react-hook-form
-```
-
-
-## Backend
-
-The backend is built using [sanity](https://www.sanity.io/sonny)
-
-[My Link](https://portfolio-mkb.sanity.studio/structure)
-
-The connection between the frontend and backend is done using [next-sanity](https://github.com/sanity-io/next-sanity?tab=readme-ov-file) [npm](https://www.npmjs.com/package/next-sanity)
-
-
-```bash
-npm install next-sanity @portabletext/react @sanity/image-url
-```
-
-- uses groq queries to fetch data from sanity
-
-- [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+**Thanks for visiting! 🎉**
